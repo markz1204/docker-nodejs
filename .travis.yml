@@ -7,6 +7,7 @@ services:
     - docker
 before_install: 
     - docker build -t zyl1204/docker-nodejs .
+script: skip
 
 deploy:
   provider: elasticbeanstalk
